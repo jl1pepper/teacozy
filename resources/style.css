@@ -7,6 +7,8 @@ body {
   background-color: black;
 }
 
+/*header*/
+
 .header {
   height: 69px;
   width: 100%;
@@ -15,6 +17,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  z-index: 9
 }
 
 .header img {
@@ -26,4 +29,39 @@ body {
 .header a {
   color: seashell;
   margin-right: 20px;
+}
+
+/*main content*/
+.content {
+  display: flex;
+  justify-content: center;
+  z-index: 2;
+}
+
+/*mission statement*/
+
+.mission {
+  margin-top: 69px;
+  height: 700px;
+  width: 1200px;
+  background-image: url(../resources/images/main-background.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 2
+}
+
+.mission h2 {
+  background-color: black;
+  margin: 0px;
+  padding: 10px;
+  width: 1200px;
+  padding: 10px;
+}
+
+.mission h4 {
+  background-color: black;
+  margin: 0px;
+  padding: 10px;
+  width: 1200px;
 }
