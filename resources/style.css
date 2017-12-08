@@ -101,3 +101,45 @@ body {
 .tea span {
   margin: 5px;
 }
+
+
+/*Locations*/
+
+
+.locations {
+  background-image: url(../resources/images/locations.jpg);
+  margin-top: 70px;
+  height: 500px;
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  align-content: center;
+}
+
+.locations h2 {
+  width: 1200px;
+  padding: 10px;
+  margin: 0px;
+}
+
+.store {
+  background-color: black;
+  height: 275px;
+  width: 300px;
+  margin: 5px 20px;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.store h3 {
+  margin: 0px;
+  padding: 10px;
+}
+
+.footer {
+  margin-top: 70px;
+}
