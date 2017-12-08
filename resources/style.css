@@ -140,6 +140,27 @@ body {
   padding: 10px;
 }
 
+
+/*footer*/
+
 .footer {
-  margin-top: 70px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer h2 {
+  margin: 0px;
+  padding-top: 10px;
+  padding-bottom: 25px;
+}
+
+.footer h5 {
+  margin: 15px 0px;
+}
+
+.copyright {
+  margin-left: 20px;
+  display: flex;
+  justify-content: flex-start;
 }
